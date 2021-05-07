@@ -1,0 +1,26 @@
+// Animation
+@mixin animation($val){
+    animation: $val;
+    -webkit-animation: $val;
+    -moz-animation: $val;
+    -o-animation: $val;
+    -ms-animation: $val;
+}
+
+// Animation Delay
+@mixin animationDelay($val){
+   animation-delay: $val;
+   -webkit-animation-delay: $val;
+   -moz-animation-delay: $val;
+   -o-animation-delay: $val;
+   -ms-animation-delay: $val; 
+}
+
+// Animation Duration
+@mixin animationDuration($val){
+   animation-duration: $val;
+   -webkit-animation-duration: $val;
+   -moz-animation-duration: $val;
+   -o-animation-duration: $val;
+   -ms-animation-duration: $val; 
+}

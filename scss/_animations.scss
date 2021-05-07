@@ -1,0 +1,19 @@
+.ao{
+    // [class*="ao__"]{
+    //     // opacity: 0;
+    // }
+
+    // Fade in
+    &__fade-in{
+        opacity: 0;
+    }
+}
+
+.inView{
+    &.ao__fade-in{
+        animation-timing-function: ease-out;
+        @include animation(ao-fade-in);
+        @include animationDelay($delay);
+        @include animationDuration(4s);
+    }
+}

@@ -1,0 +1,36 @@
+/**
+ * Animate Observer
+ * v1.0.0
+ */
+/**
+ * Keyframes
+ */
+@keyframes ao-fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jakepunton\/Documents\/Jake\/animate-observer\/scss\/_animations\.scss}line{font-family:\000037}}
+.ao__fade-in {
+  opacity: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jakepunton\/Documents\/Jake\/animate-observer\/scss\/_animations\.scss}line{font-family:\0000313}}
+.inView.ao__fade-in {
+  animation-timing-function: ease-out;
+  animation: ao-fade-in;
+  -webkit-animation: ao-fade-in;
+  -moz-animation: ao-fade-in;
+  -o-animation: ao-fade-in;
+  -ms-animation: ao-fade-in;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -o-animation-duration: 4s;
+  -ms-animation-duration: 4s; }
+
+/*# sourceMappingURL=animate-observer.min.css.map */
